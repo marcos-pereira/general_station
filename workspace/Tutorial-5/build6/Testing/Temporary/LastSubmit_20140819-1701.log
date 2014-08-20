@@ -1,0 +1,9 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+2	Test.xml
+Using drop method: http
+	Upload file: /home/marcos/Eclipse/bosch/workspace/Tutorial-5/build6/Testing/20140819-1701/Build.xml to marcos-ubuntu___Linux-c++___20140819-1701-Experimental___XML___Build.xml
+   Error when uploading file: /home/marcos/Eclipse/bosch/workspace/Tutorial-5/build6/Testing/20140819-1701/Build.xml
+   Error message was: Couldn't resolve host 'http'
+   Problems when submitting via HTTP

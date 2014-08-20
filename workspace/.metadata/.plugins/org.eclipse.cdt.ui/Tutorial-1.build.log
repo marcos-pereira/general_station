@@ -1,0 +1,28 @@
+18:35:07 **** Build of configuration Release for project Tutorial-1 ****
+make all 
+Building file: ../src/MathFunctions/MakeTable.cxx
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MathFunctions/MakeTable.d" -MT"src/MathFunctions/MakeTable.d" -o "src/MathFunctions/MakeTable.o" "../src/MathFunctions/MakeTable.cxx"
+Finished building: ../src/MathFunctions/MakeTable.cxx
+ 
+Building file: ../src/tutorial.cxx
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tutorial.d" -MT"src/tutorial.d" -o "src/tutorial.o" "../src/tutorial.cxx"
+Finished building: ../src/tutorial.cxx
+ 
+Building file: ../include/MathFunctions/mysqrt.cxx
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"include/MathFunctions/mysqrt.d" -MT"include/MathFunctions/mysqrt.d" -o "include/MathFunctions/mysqrt.o" "../include/MathFunctions/mysqrt.cxx"
+Finished building: ../include/MathFunctions/mysqrt.cxx
+ 
+Building target: Tutorial-1
+Invoking: GCC C++ Linker
+g++  -o "Tutorial-1"  ./src/MathFunctions/MakeTable.o  ./src/tutorial.o  ./include/MathFunctions/mysqrt.o   
+./src/tutorial.o: In function `main':
+tutorial.cxx:(.text.startup+0x0): multiple definition of `main'
+./src/MathFunctions/MakeTable.o:MakeTable.cxx:(.text.startup+0x0): first defined here
+collect2: ld returned 1 exit status
+make: *** [Tutorial-1] Error 1
+
+18:35:09 Build Finished (took 1s.534ms)
+

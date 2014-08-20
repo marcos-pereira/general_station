@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream.h>
+
+int main()
+{
+	cout << "Hello World!";
+	return(0);
+}

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcos/Eclipse/bosch/workspace/Tutorial-5/src/MathFunctions/../../include/MathFunctions/MathFunctions.h
+
+/home/marcos/Eclipse/bosch/workspace/Tutorial-5/src/MathFunctions/mysqrt.cxx
+stdio.h
+-
+../../include/MathFunctions/MathFunctions.h
+/home/marcos/Eclipse/bosch/workspace/Tutorial-5/src/MathFunctions/../../include/MathFunctions/MathFunctions.h
+

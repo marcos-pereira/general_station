@@ -1,0 +1,10 @@
+21:46:36 **** Incremental Build of configuration Debug for project Helloworld2 ****
+make all 
+Building file: ../src/Helloworld2.cpp
+Invoking: Cross G++ Compiler
+g++ -Wall -W -Werror g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Helloworld2.d" -MT"src/Helloworld2.d" -o "src/Helloworld2.o" "../src/Helloworld2.cpp"
+g++: error: g++: No such file or directory
+make: *** [src/Helloworld2.o] Error 1
+
+21:46:36 Build Finished (took 59ms)
+

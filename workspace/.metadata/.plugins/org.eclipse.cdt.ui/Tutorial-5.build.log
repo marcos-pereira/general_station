@@ -1,0 +1,40 @@
+18:31:33 **** Incremental Build of configuration Release for project Tutorial-5 ****
+make all 
+Building file: ../src/MathFunctions/MakeTable.cxx
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MathFunctions/MakeTable.d" -MT"src/MathFunctions/MakeTable.d" -o "src/MathFunctions/MakeTable.o" "../src/MathFunctions/MakeTable.cxx"
+Finished building: ../src/MathFunctions/MakeTable.cxx
+ 
+Building file: ../build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.d" -MT"build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.d" -o "build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.o" "../build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+Finished building: ../build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp
+ 
+Building file: ../build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"build/CMakeFiles/CompilerIdC/CMakeCCompilerId.d" -MT"build/CMakeFiles/CompilerIdC/CMakeCCompilerId.d" -o "build/CMakeFiles/CompilerIdC/CMakeCCompilerId.o" "../build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c"
+Finished building: ../build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c
+ 
+Building target: Tutorial-5
+Invoking: GCC C++ Linker
+g++  -o "Tutorial-5"  ./src/MathFunctions/MakeTable.o ./src/MathFunctions/mysqrt.o  ./src/tutorial.o  ./build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.o  ./build/CMakeFiles/CompilerIdC/CMakeCCompilerId.o   
+./src/tutorial.o: In function `main':
+tutorial.cxx:(.text.startup+0x0): multiple definition of `main'
+./src/MathFunctions/MakeTable.o:MakeTable.cxx:(.text.startup+0x0): first defined here
+./build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.o: In function `main':
+CMakeCXXCompilerId.cpp:(.text.startup+0x0): multiple definition of `main'
+./src/MathFunctions/MakeTable.o:MakeTable.cxx:(.text.startup+0x0): first defined here
+./build/CMakeFiles/CompilerIdC/CMakeCCompilerId.o: In function `main':
+CMakeCCompilerId.c:(.text.startup+0x0): multiple definition of `main'
+./src/MathFunctions/MakeTable.o:MakeTable.cxx:(.text.startup+0x0): first defined here
+./build/CMakeFiles/CompilerIdC/CMakeCCompilerId.o:(.data+0x8): multiple definition of `info_compiler'
+./build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.o:(.data+0x8): first defined here
+./build/CMakeFiles/CompilerIdC/CMakeCCompilerId.o:(.data+0x4): multiple definition of `info_platform'
+./build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.o:(.data+0x4): first defined here
+./build/CMakeFiles/CompilerIdC/CMakeCCompilerId.o:(.data+0x0): multiple definition of `info_arch'
+./build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.o:(.data+0x0): first defined here
+collect2: ld returned 1 exit status
+make: *** [Tutorial-5] Error 1
+
+18:31:35 Build Finished (took 2s.257ms)
+

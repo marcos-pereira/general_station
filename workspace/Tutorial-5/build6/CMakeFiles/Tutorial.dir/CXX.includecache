@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcos/Eclipse/bosch/workspace/Tutorial-5/src/../include/MathFunctions/MathFunctions.h
+
+/home/marcos/Eclipse/bosch/workspace/Tutorial-5/src/../include/TutorialConfig.h
+
+/home/marcos/Eclipse/bosch/workspace/Tutorial-5/src/tutorial.cxx
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+../include/TutorialConfig.h
+/home/marcos/Eclipse/bosch/workspace/Tutorial-5/src/../include/TutorialConfig.h
+../include/MathFunctions/MathFunctions.h
+/home/marcos/Eclipse/bosch/workspace/Tutorial-5/src/../include/MathFunctions/MathFunctions.h
+

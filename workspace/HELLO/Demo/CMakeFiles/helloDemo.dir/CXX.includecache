@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcos/Eclipse/bosch/workspace/HELLO/Demo/demo_b.cxx
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+

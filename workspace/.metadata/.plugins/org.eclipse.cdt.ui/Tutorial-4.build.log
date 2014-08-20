@@ -1,0 +1,20 @@
+18:37:23 **** Build of configuration Release for project Tutorial-4 ****
+make all 
+Building file: ../src/tutorial.cxx
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tutorial.d" -MT"src/tutorial.d" -o "src/tutorial.o" "../src/tutorial.cxx"
+Finished building: ../src/tutorial.cxx
+ 
+Building file: ../include/MathFunctions/mysqrt.cxx
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"include/MathFunctions/mysqrt.d" -MT"include/MathFunctions/mysqrt.d" -o "include/MathFunctions/mysqrt.o" "../include/MathFunctions/mysqrt.cxx"
+Finished building: ../include/MathFunctions/mysqrt.cxx
+ 
+Building target: Tutorial-4
+Invoking: GCC C++ Linker
+g++  -o "Tutorial-4"  ./src/tutorial.o  ./include/MathFunctions/mysqrt.o   
+Finished building target: Tutorial-4
+ 
+
+18:37:23 Build Finished (took 211ms)
+

@@ -1,0 +1,2 @@
+generating makefiles with cmake:
+cmake -G "Unix Makefiles" <path to folder containing top main CMakeLists>

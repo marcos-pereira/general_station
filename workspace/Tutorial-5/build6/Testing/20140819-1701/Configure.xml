@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20140819-1701-Experimental"
+	Name="marcos-ubuntu"
+	Generator="ctest-2.8.7"
+	CompilerName="/usr/bin/c++"
+	OSName="Linux"
+	Hostname="marcos-ubuntu"
+	OSRelease="3.2.0-67-generic-pae"
+	OSVersion="#101-Ubuntu SMP Tue Jul 15 18:04:54 UTC 2014"
+	OSPlatform="i686"
+	Is64Bits="0"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="37"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="7628"
+	TotalPhysicalMemory="3887"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1199"
+>
+<Configure>
+	<StartDateTime>Aug 19 19:01 CEST</StartDateTime>
+	<StartConfigureTime>1408467678</StartConfigureTime>
+<ConfigureCommand>"/usr/bin/cmake" "/home/marcos/Eclipse/bosch/workspace/Tutorial-5/src"</ConfigureCommand>
+<Log>-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marcos/Eclipse/bosch/workspace/Tutorial-5/build6
+</Log>
+	<ConfigureStatus>0</ConfigureStatus>
+	<EndDateTime>Aug 19 19:01 CEST</EndDateTime>
+	<EndConfigureTime>1408467678</EndConfigureTime>
+<ElapsedMinutes>0</ElapsedMinutes></Configure>
+</Site>
